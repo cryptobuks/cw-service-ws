@@ -1,0 +1,10 @@
+module.exports = {
+  rabbitmq: { active: true, server: 'localhost:15672', user: 'dev', password: 'dev123' },
+  redis: { active: true, server: 'localhost', port: 16379 },
+  options: {
+    ws: { port: 3010 }
+  },
+  mongodb: {
+    active: false
+  }
+}
